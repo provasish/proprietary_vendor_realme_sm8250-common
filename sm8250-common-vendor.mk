@@ -810,7 +810,32 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/8_version_update_ecc_table.sql \
     vendor/oneplus/sm8250-common/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
 
+# Dolby
+PRODUCT_COPY_FILES += \
+    vendor/oneplus/sm8250-common/proprietary/odm/etc/audio_effects.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_effects.xml \
+    vendor/oneplus/sm8250-common/proprietary/odm/etc/dolby/multimedia_dolby_dax_default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/multimedia_dolby_dax_default.xml \
+    vendor/oneplus/sm8250-common/proprietary/odm/etc/init/vendor.dolby_v3_6.hardware.dms360@2.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.dolby_v3_6.hardware.dms360@2.0-service.rc \
+
 PRODUCT_PACKAGES += \
+    vendor.dolby_v3_6.hardware.dms360@2.0-service \
+    libdapparamstorage_v3_6 \
+    libdeccfg_v3_6 \
+    libdlbdsservice_v3_6 \
+    libqtigef \
+    libstagefright_soft_ddpdec \
+    libstagefrightdolby \
+    vendor.dolby_v3_6.hardware.dms360@2.0-impl \
+    vendor.dolby_v3_6.hardware.dms360@2.0 \
+    libhwdap_v3_6 \
+    libswdap_v3_6 \
+    libdapparamstorage_v3_6_64 \
+    libdeccfg_v3_6_64 \
+    libdlbdsservice_v3_6_64 \
+    libqtigef_64 \
+    vendor.dolby_v3_6.hardware.dms360@2.0-impl_64 \
+    vendor.dolby_v3_6.hardware.dms360@2.0_64 \
+    libhwdap_v3_6_64 \
+    libswdap_v3_6_64 \
     btaudio_offload_if \
     eglSubDriverAndroid \
     libEGL_adreno \
@@ -1604,6 +1629,7 @@ PRODUCT_PACKAGES += \
     manifest_oplus_osiesr.xml \
     vendor.qti.gnss@4.0-service.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
+    manifest_dax_dolby_v3_6 \
     manifest_oplusSensor.xml \
     manifest_oplus_fingerprint.xml \
     adpl \

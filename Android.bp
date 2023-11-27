@@ -16,6 +16,158 @@ soong_namespace {
     ],
 }
 
+cc_prebuilt_binary {
+    name: "vendor.dolby_v3_6.hardware.dms360@2.0-service",
+    srcs: ["proprietary/odm/bin/hw/vendor.dolby_v3_6.hardware.dms360@2.0-service"],
+    vendor: true,
+    installable: true,
+    relative_install_path: "bin/hw",
+}
+
+cc_prebuilt_library_shared {
+    name: "libdapparamstorage_v3_6",
+    srcs: ["proprietary/odm/lib/libdapparamstorage_v3_6.so"],
+    vendor: true,
+    installable: true,
+    relative_install_path: "lib",
+}
+
+cc_prebuilt_library_shared {
+    name: "libdeccfg_v3_6",
+    srcs: ["proprietary/odm/lib/libdeccfg_v3_6.so"],
+    vendor: true,
+    installable: true,
+    relative_install_path: "lib",
+}
+
+cc_prebuilt_library_shared {
+    name: "libdlbdsservice_v3_6",
+    srcs: ["proprietary/odm/lib/libdlbdsservice_v3_6.so"],
+    vendor: true,
+    installable: true,
+    relative_install_path: "lib",
+}
+
+cc_prebuilt_library_shared {
+    name: "libqtigef",
+    srcs: ["proprietary/odm/lib/libqtigef.so"],
+    vendor: true,
+    installable: true,
+    relative_install_path: "lib",
+}
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_soft_ddpdec",
+    srcs: ["proprietary/odm/lib/libstagefright_soft_ddpdec.so"],
+    vendor: true,
+    installable: true,
+    relative_install_path: "lib",
+}
+
+cc_prebuilt_library_shared {
+    name: "libstagefrightdolby",
+    srcs: ["proprietary/odm/lib/libstagefrightdolby.so"],
+    vendor: true,
+    installable: true,
+    relative_install_path: "lib",
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.dolby_v3_6.hardware.dms360@2.0-impl",
+    srcs: ["proprietary/odm/lib/vendor.dolby_v3_6.hardware.dms360@2.0-impl.so"],
+    vendor: true,
+    installable: true,
+    relative_install_path: "lib",
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.dolby_v3_6.hardware.dms360@2.0",
+    srcs: ["proprietary/odm/lib/vendor.dolby_v3_6.hardware.dms360@2.0.so"],
+    vendor: true,
+    installable: true,
+    relative_install_path: "lib",
+}
+
+cc_prebuilt_library_shared {
+    name: "libhwdap_v3_6",
+    srcs: ["proprietary/odm/lib/soundfx/libhwdap_v3_6.so"],
+    vendor: true,
+    installable: true,
+    relative_install_path: "lib/soundfx",
+}
+
+cc_prebuilt_library_shared {
+    name: "libswdap_v3_6",
+    srcs: ["proprietary/odm/lib/soundfx/libswdap_v3_6.so"],
+    vendor: true,
+    installable: true,
+    relative_install_path: "lib/soundfx",
+}
+
+cc_prebuilt_library_shared {
+    name: "libdapparamstorage_v3_6_64",
+    srcs: ["proprietary/odm/lib64/libdapparamstorage_v3_6.so"],
+    vendor: true,
+    installable: true,
+    relative_install_path: "lib64",
+}
+
+cc_prebuilt_library_shared {
+    name: "libdeccfg_v3_6_64",
+    srcs: ["proprietary/odm/lib64/libdeccfg_v3_6.so"],
+    vendor: true,
+    installable: true,
+    relative_install_path: "lib64",
+}
+
+cc_prebuilt_library_shared {
+    name: "libdlbdsservice_v3_6_64",
+    srcs: ["proprietary/odm/lib64/libdlbdsservice_v3_6.so"],
+    vendor: true,
+    installable: true,
+    relative_install_path: "lib64",
+}
+
+cc_prebuilt_library_shared {
+    name: "libqtigef_64",
+    srcs: ["proprietary/odm/lib64/libqtigef.so"],
+    vendor: true,
+    installable: true,
+    relative_install_path: "lib64",
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.dolby_v3_6.hardware.dms360@2.0-impl_64",
+    srcs: ["proprietary/odm/lib64/vendor.dolby_v3_6.hardware.dms360@2.0-impl.so"],
+    vendor: true,
+    installable: true,
+    relative_install_path: "lib64",
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.dolby_v3_6.hardware.dms360@2.0_64",
+    srcs: ["proprietary/odm/lib64/vendor.dolby_v3_6.hardware.dms360@2.0.so"],
+    vendor: true,
+    installable: true,
+    relative_install_path: "lib64",
+}
+
+cc_prebuilt_library_shared {
+    name: "libhwdap_v3_6_64",
+    srcs: ["proprietary/odm/lib64/soundfx/libhwdap_v3_6.so"],
+    vendor: true,
+    installable: true,
+    relative_install_path: "lib64/soundfx",
+}
+
+cc_prebuilt_library_shared {
+    name: "libswdap_v3_6_64",
+    srcs: ["proprietary/odm/lib64/soundfx/libswdap_v3_6.so"],
+    vendor: true,
+    installable: true,
+    relative_install_path: "lib64/soundfx",
+}
+
 cc_prebuilt_library_shared {
     name: "btaudio_offload_if",
     owner: "oneplus",
@@ -26591,4 +26743,13 @@ install_symlink {
     soc_specific: true,
     installed_location: "lib64/libq3dtools_adreno.so",
     symlink_target: "/vendor/lib64/egl/libq3dtools_adreno.so",
+}
+
+prebuilt_etc_xml {
+	name: "manifest_dax_dolby_v3_6",
+	owner: "oneplus",
+	src: "proprietary/odm/etc/vintf/manifest/manifest_dax_dolby_v3_6.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	device_specific: true,
 }
