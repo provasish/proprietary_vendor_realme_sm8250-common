@@ -21291,6 +21291,10 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/libarcsoft_dualcam_refocus_left.so",
             ],
             shared_libs: [
+                "libz",
+                "libarcsoft_qnnhtp",
+                "libcdsprpc",
+                "libarc.ion",
                 "libmpbase",
                 "liblog",
                 "libc",
@@ -21316,6 +21320,7 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/libarcsoft_dualcam_refocus_preview.so",
             ],
             shared_libs: [
+                "libarc.ion",
                 "libmpbase",
                 "liblog",
                 "libc",
@@ -21341,6 +21346,10 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/libarcsoft_dualcam_refocus_uw.so",
             ],
             shared_libs: [
+                "libz",
+                "libarcsoft_qnnhtp",
+                "libcdsprpc",
+                "libarc.ion",
                 "libmpbase",
                 "liblog",
                 "libc",
