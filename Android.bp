@@ -4808,7 +4808,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libqtigef",
+    name: "libqtigef_vendor",
+    stem: "libqtigef",
     owner: "oneplus",
     strip: {
         none: true,
