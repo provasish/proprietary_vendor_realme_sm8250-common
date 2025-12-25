@@ -4,11 +4,11 @@
 
 soong_namespace {
     imports: [
-        "device/oneplus/sm8250-common",
+        "device/realme/sm8250-common",
         "hardware/oplus",
         "hardware/qcom-caf/sm8250",
         "hardware/qcom-caf/wlan",
-        "vendor/oneplus/spartan",
+        "vendor/realme/spartan",
         "vendor/qcom/opensource/commonsys-intf/display",
         "vendor/qcom/opensource/commonsys/display",
         "vendor/qcom/opensource/dataservices",
@@ -18,7 +18,7 @@ soong_namespace {
 
 cc_prebuilt_library_shared {
     name: "btaudio_offload_if",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -73,7 +73,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "eglSubDriverAndroid",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -139,7 +139,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libEGL_adreno",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -185,7 +185,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGLESv1_CM_adreno",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -229,7 +229,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGLESv2_adreno",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -277,7 +277,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libq3dtools_adreno",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -319,7 +319,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libq3dtools_esx",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -361,7 +361,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.bluetooth@1.0-impl-qti",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -419,7 +419,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.bluetooth_audio@2.0-impl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -473,7 +473,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.bluetooth_audio@2.1-impl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -531,7 +531,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.bluetooth_sar@1.1-impl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -583,7 +583,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.btconfigstore@1.0-impl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -633,7 +633,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.btconfigstore@2.0-impl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -683,7 +683,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.capabilityconfigstore@1.0-impl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -735,7 +735,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vulkan.adreno",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -801,7 +801,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libC2D2",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -842,7 +842,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCB",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -903,7 +903,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOpenCL",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -942,7 +942,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libVkLayer_q3dtools",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -979,7 +979,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadreno_utils",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -1016,7 +1016,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadsprpc",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -1065,7 +1065,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbluetooth_audio_session_qti",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -1116,7 +1116,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbluetooth_audio_session_qti_2_1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -1171,7 +1171,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbtnv",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -1206,7 +1206,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libc2d30_bltlib",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -1247,7 +1247,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamxexternalformatutils",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -1290,7 +1290,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcdsp_default_listener",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -1329,7 +1329,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcdsprpc",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -1378,7 +1378,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libconfigdb",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -1421,7 +1421,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdiag",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -1460,7 +1460,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdsi_netctrl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -1521,7 +1521,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdsutils",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -1566,7 +1566,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfastcvdsp_stub",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -1605,7 +1605,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfastcvopt",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -1648,7 +1648,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgpudataproducer",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -1687,7 +1687,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgsl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -1732,7 +1732,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libidl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -1767,7 +1767,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libllvm-glnext",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -1806,7 +1806,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libllvm-qcom",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -1841,7 +1841,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmdmdetect",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -1888,7 +1888,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmdsprpc",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -1938,7 +1938,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmosal_vendor",
     stem: "libmmosal",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -1979,7 +1979,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnetmgr",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -2026,7 +2026,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liboemnvbk_img_helper",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -2071,7 +2071,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libperfconfig",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -2116,7 +2116,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libperfgluelayer",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -2159,7 +2159,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libperfioctl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -2200,7 +2200,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcmaputils",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -2239,7 +2239,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqdi",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -2292,7 +2292,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqdp",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -2341,7 +2341,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -2390,7 +2390,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_cci",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -2433,7 +2433,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_client_helper",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -2484,7 +2484,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_client_qmux",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -2531,7 +2531,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_common_so",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -2570,7 +2570,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_csi",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -2613,7 +2613,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_encdec",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -2652,7 +2652,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_legacy",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -2701,7 +2701,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmiservices",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -2738,7 +2738,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqti-perfd-client",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -2783,7 +2783,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqti-perfd",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -2848,7 +2848,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqti-util",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -2891,7 +2891,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveCommon",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -2934,7 +2934,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveCommon_stub",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -2971,7 +2971,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveObjectSegmentation",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -3012,7 +3012,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveObjectSegmentation_stub",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -3051,7 +3051,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveObjectTracker",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -3094,7 +3094,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveObjectTracker_stub",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -3137,7 +3137,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsdsprpc",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -3186,7 +3186,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsoc_helper",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -3223,7 +3223,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsysmon_cdsp_skel",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -3260,7 +3260,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libthermalclient",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -3299,7 +3299,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvppclient",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -3360,7 +3360,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvpphcp",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -3401,7 +3401,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvpphvx",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -3442,7 +3442,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvpplibrary",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -3505,7 +3505,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libxml",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -3546,7 +3546,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.extcamera@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -3589,7 +3589,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.bluetooth_sar@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -3632,7 +3632,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.bluetooth_sar@1.1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -3677,7 +3677,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.dsp@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -3720,7 +3720,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.vpp@1.1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -3763,7 +3763,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.vpp@1.2",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -3808,7 +3808,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.vpp@1.3",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -3855,7 +3855,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.vpp@1.4",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -3904,7 +3904,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.memory.pasrmanager@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -3947,7 +3947,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.memory.pasrmanager@1.1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -3992,7 +3992,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "sound_trigger.primary.kona",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4023,7 +4023,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libFileMux_proprietary",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4051,7 +4051,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libacdb-fts",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4079,7 +4079,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libacdbloader",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4112,7 +4112,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libacdbrtac",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4140,7 +4140,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadiertac",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4168,7 +4168,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadm",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4195,7 +4195,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudcal",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4222,7 +4222,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudio_log_utils",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4250,7 +4250,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudioparsers",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4276,7 +4276,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcapiv2svacnn",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4302,7 +4302,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcapiv2vop",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4328,7 +4328,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfastcrc",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4353,7 +4353,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgcs-calwrapper",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4379,7 +4379,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgcs-ipc",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4406,7 +4406,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgcs-osal",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4431,7 +4431,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgcs",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4459,7 +4459,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhdmipassthru",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4491,7 +4491,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblistensoundmodel2",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4517,7 +4517,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmm-hdcpmgr",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4544,7 +4544,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmrtpdecoder_proprietary",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4572,7 +4572,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmrtpencoder_proprietary",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4600,7 +4600,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmulawdec",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4624,7 +4624,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcodec2_base",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4652,7 +4652,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcodec2_basecodec",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4683,7 +4683,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcodec2_core",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4715,7 +4715,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcodec2_platform",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4745,7 +4745,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcodec2_utils",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4777,7 +4777,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcodec2_v4l2codec",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4810,7 +4810,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libqtigef_vendor",
     stem: "libqtigef",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4836,7 +4836,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdcodecv4l2_proprietary",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4867,7 +4867,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdcommonutils_proprietary",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4898,7 +4898,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdconfigutils_proprietary",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4929,7 +4929,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfddisplayconfig_proprietary",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4959,7 +4959,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdhdcpcp",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -4987,7 +4987,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdhdcpservice_proprietary",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5018,7 +5018,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdmminterface_proprietary",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5045,7 +5045,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdmmservice_proprietary",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5074,7 +5074,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdmmsrc_proprietary",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5116,7 +5116,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdmodulehdcpsession",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5147,7 +5147,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdrtsp_proprietary",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5177,7 +5177,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdsessionmodule",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5208,7 +5208,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdsourcesession_proprietary",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5245,7 +5245,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdsourcesm_proprietary",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5285,7 +5285,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfduibcinterface_proprietary",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5315,7 +5315,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfduibcsink_proprietary",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5342,7 +5342,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfduibcsinkinterface_proprietary",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5373,7 +5373,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfduibcsrc_proprietary",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5404,7 +5404,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfduibcsrcinterface_proprietary",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5435,7 +5435,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdutils_proprietary",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5462,7 +5462,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libasphere",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5489,7 +5489,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcbassboost",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5516,7 +5516,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcreverb",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5543,7 +5543,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcvirt",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5570,7 +5570,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libshoebox",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5598,7 +5598,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.wifidisplaysession@1.0_vendor",
     stem: "vendor.qti.hardware.wifidisplaysession@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5626,7 +5626,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5656,7 +5656,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.eeprom.truly_cmb433",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5692,7 +5692,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.camx.chiiqutils",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5739,7 +5739,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.eisv2",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5767,7 +5767,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.eisv3",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5795,7 +5795,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.hvx.addconstant",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5822,7 +5822,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.hvx.binning",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5849,7 +5849,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.customhwnode",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5879,7 +5879,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.depth",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5908,7 +5908,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.dummyrtb",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5937,7 +5937,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.dummysat",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -5966,7 +5966,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.eisv2",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6015,7 +6015,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.eisv3",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6064,7 +6064,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.fcv",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6093,7 +6093,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.gpu",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6126,7 +6126,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.memcpy",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6155,7 +6155,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.stich",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6184,7 +6184,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.swec",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6232,7 +6232,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.swfusion",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6264,7 +6264,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.swregistration",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6303,7 +6303,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.aec",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6334,7 +6334,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.aecwrapper",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6364,7 +6364,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.af",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6395,7 +6395,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.afd",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6425,7 +6425,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.afwrapper",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6455,7 +6455,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.asd",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6485,7 +6485,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.awb",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6515,7 +6515,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.awbwrapper",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6545,7 +6545,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.hafoverride",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6575,7 +6575,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.pdlibsony",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6605,7 +6605,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.pdlibwrapper",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6635,7 +6635,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.tracker",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6673,7 +6673,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qtistatic.stats.aec",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6704,7 +6704,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qtistatic.stats.af",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6735,7 +6735,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qtistatic.stats.awb",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6766,7 +6766,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qtistatic.stats.pdlib",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6797,7 +6797,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdepthmapwrapper",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6833,7 +6833,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.anchorsync",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6879,7 +6879,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.demux",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6924,7 +6924,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.frameselect",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -6969,7 +6969,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.fusion",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7014,7 +7014,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.generic",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7061,7 +7061,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.gs",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7106,7 +7106,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.hdr",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7151,7 +7151,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.memcpy",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7196,7 +7196,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.mfsr",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7241,7 +7241,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.qcfa",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7286,7 +7286,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.rawhdr",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7331,7 +7331,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.rt",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7379,7 +7379,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.serializer",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7424,7 +7424,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.stub",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7469,7 +7469,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.swmf",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7515,7 +7515,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.dpm.api@1.0_vendor",
     stem: "com.qualcomm.qti.dpm.api@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7543,7 +7543,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.imscmservice@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7571,7 +7571,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.imscmservice@2.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7599,7 +7599,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.imscmservice@2.1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7628,7 +7628,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.imscmservice@2.2",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7658,7 +7658,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.uceservice@2.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7686,7 +7686,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.uceservice@2.1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7715,7 +7715,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.uceservice@2.2",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7745,7 +7745,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.uceservice@2.3",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7776,7 +7776,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "deviceInfoServiceModule",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7809,7 +7809,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.gatekeeper@1.0-impl-qti",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7841,7 +7841,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.gnss@2.1-impl-qti",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7885,7 +7885,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "camera.qcom",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7940,7 +7940,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.chi.override",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -7987,7 +7987,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@4.0-impl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8034,7 +8034,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.alarm@1.0-impl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8066,7 +8066,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.qseecom@1.0-impl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8101,7 +8101,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.qteeconnector@1.0-impl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8134,7 +8134,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.sensorscalibrate@1.0-impl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8167,7 +8167,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.soter@1.0-impl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8202,7 +8202,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imscmservice",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8235,7 +8235,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsdpl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8268,7 +8268,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsqimf",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8295,7 +8295,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsrcs-v2",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8348,7 +8348,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsrcsbaseimpl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8393,7 +8393,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsvtcore",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8426,7 +8426,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsxml",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8453,7 +8453,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-rcsconfig",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8492,7 +8492,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-rtpcommon",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8521,7 +8521,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-rtpcore",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8552,7 +8552,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-rtpsl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8584,7 +8584,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-siputility",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8612,7 +8612,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-uceservice",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8649,7 +8649,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libFace3DTA",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8677,7 +8677,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libFace3D_hlos",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8707,7 +8707,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGPQTEEC_vendor",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8738,7 +8738,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGPTEE_vendor",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8765,7 +8765,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGPreqcancel",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8795,7 +8795,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGPreqcancel_svc",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8822,7 +8822,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libQ6MSFR_manager_stub",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8847,7 +8847,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libQSEEComAPI",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8875,7 +8875,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libQTEEConnector_listener",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8907,7 +8907,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libQTEEConnector_vendor",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8936,7 +8936,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSecureUILib",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8966,7 +8966,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libStDrvInt",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -8991,7 +8991,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadsp_default_listener",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9017,7 +9017,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaoa",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9041,7 +9041,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libasn1cper",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9069,7 +9069,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libasn1crt",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9094,7 +9094,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libasn1crtx",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9120,7 +9120,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbatching",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9149,7 +9149,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbitmlengine",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9179,7 +9179,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcacertclient",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9208,7 +9208,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamera_nn_stub",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9239,7 +9239,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamerapostproc",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9283,7 +9283,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamxfacialfeatures",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9308,7 +9308,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamxfdalgo",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9332,7 +9332,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamxfdengine",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9366,7 +9366,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamxifestriping",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9398,7 +9398,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamximageformatutils",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9450,7 +9450,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamxncs",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9487,7 +9487,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamxstatscore",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9516,7 +9516,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamxswispiqmodule",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9560,7 +9560,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamxswprocessalgo",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9589,7 +9589,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamxtintlessalgo",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9618,7 +9618,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcdfw",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9644,7 +9644,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcdfw_remote_api",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9670,7 +9670,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libchilog",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9697,7 +9697,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcne",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9753,7 +9753,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcneapiclient",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9788,7 +9788,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcneoplookup",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9814,7 +9814,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcneqmiutils",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9839,7 +9839,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcom.qti.chinodeutils",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9866,7 +9866,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcpion",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9892,7 +9892,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcvp2",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9920,7 +9920,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcvp2_hfi",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9944,7 +9944,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcvp_common",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9969,7 +9969,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcvpcpuRev_skel",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -9997,7 +9997,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdataitems",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10025,7 +10025,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdisp-aba",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10051,7 +10051,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdisplayconfig.qti",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10079,7 +10079,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdisplayqos",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10104,7 +10104,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdisplayskuutils",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10132,7 +10132,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdpmqmihal",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10164,7 +10164,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdrmfs",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10194,7 +10194,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdrmtime",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10224,7 +10224,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libface3d_dev",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10260,7 +10260,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgdtap",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10291,7 +10291,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgeofencing",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10320,7 +10320,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgnss",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10349,7 +10349,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgnsspps",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10377,7 +10377,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgps.utils",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10405,7 +10405,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhdr_tm",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10435,7 +10435,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhexagon_nn_stub",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10462,7 +10462,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhistogram",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10491,7 +10491,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhta_hexagon_runtime",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10516,7 +10516,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libizat_client_api",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10542,7 +10542,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libizat_core",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10573,7 +10573,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libjnihelper",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10602,7 +10602,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libkeymasterdeviceutils",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10632,7 +10632,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libkeymasterprovision",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10661,7 +10661,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libkeymasterutils",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10689,7 +10689,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblbs_core",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10725,7 +10725,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblearningmodule",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10756,7 +10756,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libloc_api_v02",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10787,7 +10787,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libloc_api_wds",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10819,7 +10819,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libloc_core",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10847,7 +10847,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libloc_socket",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10875,7 +10875,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblocation_api",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10903,7 +10903,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblocationservice",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10936,7 +10936,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblocationservice_glue",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10970,7 +10970,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblowi_client",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -10997,7 +10997,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblowi_wifihal",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11026,7 +11026,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblqe",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11058,7 +11058,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmdmimgload",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11088,7 +11088,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmeters",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11115,7 +11115,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmidasserviceintf",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11144,7 +11144,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmidasserviceintf_aidl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11175,7 +11175,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libminkdescriptor",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11202,7 +11202,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libminksocket",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11229,7 +11229,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmcamera_faceproc",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11253,7 +11253,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmcamera_faceproc2",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11277,7 +11277,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnanopb",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11301,7 +11301,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnetmgr_common",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11333,7 +11333,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnetmgr_nr_fusion",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11365,7 +11365,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnetmgr_rmnet_ext",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11397,7 +11397,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnlnetmgr",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11428,7 +11428,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libofflinelog",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11456,7 +11456,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libopenvx",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11483,7 +11483,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libops",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11514,7 +11514,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libos",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11538,7 +11538,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpdmapper",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11569,7 +11569,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpdnotifier",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11599,7 +11599,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libperipheral_client",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11628,7 +11628,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpwirisIoctlWrapper",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11656,7 +11656,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpwirisfeature",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11687,7 +11687,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpwirishalwrapper",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11723,7 +11723,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcbor",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11750,7 +11750,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcc_file_agent",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11781,7 +11781,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcrilFramework",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11809,7 +11809,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcrildatactl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11835,7 +11835,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqdma_file_agent",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11866,7 +11866,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqdutils",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11895,7 +11895,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqisl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11922,7 +11922,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqrtr",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11946,7 +11946,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqseed3",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11970,7 +11970,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqsocket",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -11994,7 +11994,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqtikeymaster4",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12029,7 +12029,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librcc",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12057,7 +12057,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libril-qc-hal-qmi",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12173,7 +12173,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libril-qc-logger",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12200,7 +12200,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libril-qc-ltedirectdisc",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12224,7 +12224,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libril-qc-radioconfig",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12248,7 +12248,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libril-qcril-hook-oem",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12276,7 +12276,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librilqmiservices",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12301,7 +12301,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librpmb",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12328,7 +12328,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsdedrm",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12357,7 +12357,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsdm-color",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12388,7 +12388,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsdm-colormgr-algo",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12414,7 +12414,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsdm-diag",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12442,7 +12442,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsdm-disp-vndapis",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12472,7 +12472,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsdmcore",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12504,7 +12504,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsdmextension",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12533,7 +12533,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsdmutils",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12559,7 +12559,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsecureui",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12593,7 +12593,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsecureui_svcsock",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12622,7 +12622,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsensorcal",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12653,7 +12653,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsensorslog",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12678,7 +12678,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsettings",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12706,7 +12706,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libskewknob",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12732,7 +12732,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libslimclient",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12763,7 +12763,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsns_device_mode_stub",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12791,7 +12791,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsns_fastRPC_util",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12818,7 +12818,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsns_low_lat_stream_stub",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12846,7 +12846,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsnsapi",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12876,7 +12876,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsnsdiaglog",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12908,7 +12908,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libspcom",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12937,7 +12937,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libspl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12964,7 +12964,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libssc",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -12997,7 +12997,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libssc_default_listener",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13023,7 +13023,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libssd",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13052,7 +13052,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libswregistrationalgo",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13078,7 +13078,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsynx",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13105,7 +13105,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsystem_health_mon",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13132,7 +13132,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libthreadutils",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13157,7 +13157,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtime_genoff",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13183,7 +13183,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtinyxml2_1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13207,7 +13207,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtrustedapploader",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13235,7 +13235,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwms",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13271,7 +13271,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwqe",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13312,7 +13312,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libxtadapter",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13340,7 +13340,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libxtwifi_server_protocol",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13371,7 +13371,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libxtwifi_server_protocol_uri_v3",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13402,7 +13402,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "qcrild_librilutils",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13426,7 +13426,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "qtibus",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13454,7 +13454,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "qtimutex",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13479,7 +13479,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "sensors.ssc",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13521,7 +13521,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "unnhal-acc-adreno",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13547,7 +13547,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "unnhal-acc-common",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13588,7 +13588,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "unnhal-acc-hta",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13613,7 +13613,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "unnhal-acc-hvx",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13647,7 +13647,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13675,7 +13675,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13704,7 +13704,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.2",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13734,7 +13734,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.3",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13765,7 +13765,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.4",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13797,7 +13797,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.5",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13830,7 +13830,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.display.postproc@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13858,7 +13858,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.cameraextension-V1-ndk_platform",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13883,7 +13883,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.cammidasservice-V1-ndk_platform",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13908,7 +13908,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.cammidasservice@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13936,7 +13936,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.commondcs-V1-ndk_platform",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13961,7 +13961,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.osense.client-V1-ndk_platform",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -13986,7 +13986,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.radio-V2-ndk_platform",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14011,7 +14011,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.data.factory@2.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14046,7 +14046,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.data.factory@2.1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14084,7 +14084,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.data.factory@2.2",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14124,7 +14124,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.data.factory@2.3",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14166,7 +14166,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.data.mwqem@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14194,7 +14194,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.data.slm@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14222,7 +14222,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14251,7 +14251,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@1.1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14281,7 +14281,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@1.2",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14312,7 +14312,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@2.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14344,7 +14344,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@2.1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14377,7 +14377,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@3.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14411,7 +14411,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@4.0-service",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14452,7 +14452,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@4.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14487,7 +14487,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.alarm@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14515,7 +14515,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.cacert@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14543,7 +14543,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.camera.postproc@1.0-service-impl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14584,7 +14584,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.cne.internal.api@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14613,7 +14613,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.cne.internal.constants@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14641,7 +14641,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.cne.internal.server@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14670,7 +14670,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.connection@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14698,7 +14698,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.connection@1.1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14727,7 +14727,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.dynamicdds@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14755,7 +14755,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.iwlan@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14788,7 +14788,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.latency@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14816,7 +14816,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.lce@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14844,7 +14844,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.qmi@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14872,7 +14872,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.fm@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14900,7 +14900,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.mwqemadapter@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14928,7 +14928,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.qccsyshal@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14956,7 +14956,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.qseecom@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -14984,7 +14984,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.qteeconnector@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15012,7 +15012,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.am@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15040,7 +15040,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15068,7 +15068,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15097,7 +15097,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.2",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15127,7 +15127,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.3",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15158,7 +15158,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.4",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15190,7 +15190,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.5",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15223,7 +15223,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.6",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15257,7 +15257,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.7",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15292,7 +15292,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.internal.deviceinfo@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15320,7 +15320,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.lpa@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15348,7 +15348,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.lpa@1.1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15377,7 +15377,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.lpa@1.2",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15407,7 +15407,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qcrilhook@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15435,7 +15435,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15463,7 +15463,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15493,7 +15493,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15524,7 +15524,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.2",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15556,7 +15556,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.3",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15589,7 +15589,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.4",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15624,7 +15624,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.5",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15660,7 +15660,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15688,7 +15688,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim@1.1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15717,7 +15717,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim@1.2",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15747,7 +15747,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim_remote_client@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15775,7 +15775,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim_remote_client@1.1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15804,7 +15804,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim_remote_client@1.2",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15834,7 +15834,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim_remote_server@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15862,7 +15862,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.sensorscalibrate@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15890,7 +15890,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.slmadapter@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15918,7 +15918,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.soter@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15946,7 +15946,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.tui_comm@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -15974,7 +15974,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.callcapability@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16002,7 +16002,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.callinfo@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16030,7 +16030,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.factory@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16060,7 +16060,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.factory@1.1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16092,7 +16092,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.rcsconfig@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16120,7 +16120,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.rcsconfig@1.1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16149,7 +16149,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.rcsconfig@2.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16177,7 +16177,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.rcsconfig@2.1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16206,7 +16206,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.imsrtpservice@3.0-service-Impl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16240,7 +16240,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.qti.imsrtpservice@3.0_vendor",
     stem: "vendor.qti.imsrtpservice@3.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16268,7 +16268,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.latency@2.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16296,7 +16296,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.latency@2.1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16326,7 +16326,7 @@ cc_prebuilt_library_shared {
 prebuilt_rfsa {
     name: "capi_v2_aptX_CLHDADV_Encoder",
     filename: "capi_v2_aptX_CLHDADV_Encoder.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -16335,7 +16335,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "capi_v2_aptX_CLHDAD_Speech_Decoder",
     filename: "capi_v2_aptX_CLHDAD_Speech_Decoder.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -16344,7 +16344,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libQ6MSFR_manager_skel",
     filename: "libQ6MSFR_manager_skel.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/lib/rfsa/adsp/libQ6MSFR_manager_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -16353,7 +16353,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libapps_mem_heap",
     filename: "libapps_mem_heap.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -16362,7 +16362,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libbitml_nsp_skel",
     filename: "libbitml_nsp_skel.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/lib/rfsa/adsp/libbitml_nsp_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -16371,7 +16371,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libcamera_nn_skel",
     filename: "libcamera_nn_skel.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/lib/rfsa/adsp/libcamera_nn_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -16380,7 +16380,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libcvpdsp_skel",
     filename: "libcvpdsp_skel.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/lib/rfsa/adsp/libcvpdsp_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -16389,7 +16389,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libdspCV_skel",
     filename: "libdspCV_skel.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -16398,7 +16398,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libdsp_streamer_binning",
     filename: "libdsp_streamer_binning.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/lib/rfsa/adsp/libdsp_streamer_binning.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -16407,7 +16407,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libfastcvadsp",
     filename: "libfastcvadsp.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -16416,7 +16416,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libfastcvdsp_skel",
     filename: "libfastcvdsp_skel.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/lib/rfsa/adsp/libfastcvdsp_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -16425,7 +16425,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libhexagon_nn_skel",
     filename: "libhexagon_nn_skel.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/lib/rfsa/adsp/libhexagon_nn_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -16434,7 +16434,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libosie_skel",
     filename: "libosie_skel.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/lib/rfsa/adsp/libosie_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -16443,7 +16443,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libproxy_skel",
     filename: "libproxy_skel.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/lib/rfsa/adsp/libproxy_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -16452,7 +16452,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libscveObjectSegmentation_skel",
     filename: "libscveObjectSegmentation_skel.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -16461,7 +16461,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libscveT2T_skel",
     filename: "libscveT2T_skel.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -16470,7 +16470,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libsns_device_mode_skel",
     filename: "libsns_device_mode_skel.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/lib/rfsa/adsp/libsns_device_mode_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -16479,7 +16479,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libsns_low_lat_stream_skel",
     filename: "libsns_low_lat_stream_skel.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -16487,7 +16487,7 @@ prebuilt_rfsa {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.diaghal@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16530,7 +16530,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.dpm.api@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16558,7 +16558,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsvideocodec",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16592,7 +16592,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsvt",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16633,7 +16633,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsvtextutils",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16664,7 +16664,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-imsvtutils",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16692,7 +16692,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdiag_system",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16724,7 +16724,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdpmctmgr",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16754,7 +16754,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdpmfdmgr",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16784,7 +16784,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdpmframework",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16817,7 +16817,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdpmtcm",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16847,7 +16847,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimscamera_jni",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16875,7 +16875,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimsmedia_jni",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16906,7 +16906,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmosal",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16933,7 +16933,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmparser_lite",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16961,7 +16961,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmrtpdecoder",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -16989,7 +16989,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmrtpencoder",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17017,7 +17017,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdavenhancements",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17047,7 +17047,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdclient",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17083,7 +17083,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdcommonutils",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17128,7 +17128,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdconfigutils",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17159,7 +17159,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfddisplayconfig",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17191,7 +17191,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdmminterface",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17218,7 +17218,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdmmsink",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17265,7 +17265,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdmmsrc_system",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17311,7 +17311,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdnative",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17351,7 +17351,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdrtsp",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17381,7 +17381,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdservice",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17427,7 +17427,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdsinksm",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17467,7 +17467,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfduibcinterface",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17497,7 +17497,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfduibcsink",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17526,7 +17526,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfduibcsinkinterface",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17557,7 +17557,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfduibcsrc",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17588,7 +17588,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfduibcsrcinterface",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17619,7 +17619,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.ImsRtpService-V1-ndk",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17645,7 +17645,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.dpmaidlservice-V1-ndk",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17670,7 +17670,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.dpmservice@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17698,7 +17698,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.wifidisplaysession@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17726,7 +17726,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17752,7 +17752,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.imsrtpservice@3.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17780,7 +17780,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.imsrtpservice@3.1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17809,7 +17809,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libDeVIS",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17844,7 +17844,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaiboost",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17883,7 +17883,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaiboost_hexagon",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17920,7 +17920,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaiboost_nnlib_sr",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -17959,7 +17959,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaiboost_sr",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18002,7 +18002,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaiboost_ubwc",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18039,7 +18039,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libc++_shared",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18070,7 +18070,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfastov_dsp",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18107,7 +18107,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libosie_process",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18148,7 +18148,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libosie_stub",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18183,7 +18183,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.orms@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18226,7 +18226,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "anc.hal",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18255,7 +18255,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.secure_element@1.0-impl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18289,7 +18289,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oplus.node.aiaftrack",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18321,7 +18321,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oplus.node.drawafinfo",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18351,7 +18351,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oplus.node.ecs",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18386,7 +18386,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oplus.node.preview",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18418,7 +18418,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oplus.node.sat",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18454,7 +18454,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oplus.node.sstabdefer",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18487,7 +18487,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oplus.node.sstabrealt",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18520,7 +18520,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oplus.node.videoenhance",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18552,7 +18552,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oplus.node.videohdr",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18584,7 +18584,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.oplus.node.videonight",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18617,7 +18617,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.remosaic",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18647,7 +18647,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.haf",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18677,7 +18677,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.pdlib",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18707,7 +18707,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libipebpsstriping",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18739,7 +18739,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "fingerprint.goodix_G2.default",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18774,7 +18774,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "fingerprint.goodix_G3.default",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18809,7 +18809,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "fingerprint.goodix_G5.default",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18844,7 +18844,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "fingerprint.goodix_G6.default",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18879,7 +18879,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "fingerprint.goodix_G7.default",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18914,7 +18914,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.esepowermanager@1.1-impl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18946,7 +18946,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-virtual-modem-protos",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18971,7 +18971,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib2DSlender",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -18997,7 +18997,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libAlgoInterface",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19032,7 +19032,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libAlgoProcess",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19079,7 +19079,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libAncFilter",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19105,7 +19105,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libAncHumBokeh",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19132,7 +19132,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libAncHumBokehPost",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19159,7 +19159,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libAncHumVideoBase",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19187,7 +19187,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libAncHumanDoubleExposure",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19211,7 +19211,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libAncHumanRetain",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19239,7 +19239,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libAncHumanSegFigureFusion",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19268,7 +19268,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libAncSegBaseSdk",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19293,7 +19293,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libAncSegmentSdk",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19318,7 +19318,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libBokehPre",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19341,7 +19341,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCOppLceTonemapAPI",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19367,7 +19367,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libEIS",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19398,7 +19398,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libFDClite",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19426,7 +19426,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libFaceBeautyCap",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19452,7 +19452,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libFaceBeautyJni",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19479,7 +19479,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libFaceBeautyPICap",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19506,7 +19506,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libFaceBeautyPre",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19532,7 +19532,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libFaceDistortionCorrection",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19560,7 +19560,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libFaceWhiten",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19586,7 +19586,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libFilterWrapper",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19614,7 +19614,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libHdrVideo",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19640,7 +19640,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libImageWarpMask",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19666,7 +19666,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libNightVideo",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19692,7 +19692,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOGLManager",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19719,7 +19719,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOPLUS_SCPortrait",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19746,7 +19746,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libPerfectColor",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19773,7 +19773,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libPerfectlyClearCrux",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19797,7 +19797,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libPerfectlyClearCruxOpt",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19821,7 +19821,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libPlatformValidatorShared",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19845,7 +19845,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libPolarrRender",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19872,7 +19872,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libPreviewDecisionOld",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19901,7 +19901,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libQnnHtpAltPrepStub",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19926,7 +19926,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libQnnHtpStub",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19951,7 +19951,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libRedeyeReduce",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -19976,7 +19976,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSEC.HybridHDR",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20000,7 +20000,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSNPE",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20025,7 +20025,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSNPE_G",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20050,7 +20050,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX471RmscLibrary",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20074,7 +20074,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libStarMode",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20098,7 +20098,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSuperRaw",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20123,7 +20123,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTrafficMode",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20148,7 +20148,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libVDBayerHDR",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20173,7 +20173,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libVDBlurless",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20198,7 +20198,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libVDDualCameraBlurlessAPI",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20222,7 +20222,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libVDExternal",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20246,7 +20246,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libVDPostureDetection",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20270,7 +20270,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libVDSuperPhotoAPI",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20295,7 +20295,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libVDUpScale",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20319,7 +20319,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libVideoEnhance",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20345,7 +20345,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libWaterMark",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20369,7 +20369,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libWaterMode",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20394,7 +20394,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libYTCommon",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20420,7 +20420,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib_rectify",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20445,7 +20445,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaisal",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20471,7 +20471,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaisd",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20497,7 +20497,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaiseg",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20520,7 +20520,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libalCFR",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20546,7 +20546,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libancbase_rt_bokeh",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20571,7 +20571,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libancbase_rt_fusion",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20595,7 +20595,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libancbase_rt_retain",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20619,7 +20619,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libancbase_segbase",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20644,7 +20644,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libancbase_segment",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20669,7 +20669,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaps_frame_registration",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20696,7 +20696,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libapsdarksight",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20721,7 +20721,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libapsexif",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20745,7 +20745,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libapsjpeg",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20769,7 +20769,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libapspng",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20794,7 +20794,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarc.ion",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20822,7 +20822,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_aicolor_image",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20847,7 +20847,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_aicolor_video",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20872,7 +20872,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_distortion_correction",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20898,7 +20898,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_dualcam_bokeh_api",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20923,7 +20923,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_dualcam_refocus_left",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20948,7 +20948,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_dualcam_refocus_preview",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20973,7 +20973,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_dualcam_refocus_uw",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -20998,7 +20998,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_hdr_couple_api",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21025,7 +21025,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_hdr_couple_api_v4",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21052,7 +21052,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_hdr_denoise_api",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21079,7 +21079,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_hdr_denoise_api_v4",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21106,7 +21106,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_hdrplus_hvx_stub",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21130,7 +21130,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_high_dynamic_range",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21155,7 +21155,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_high_dynamic_range_couple",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21180,7 +21180,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_high_dynamic_range_couple_v4",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21205,7 +21205,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_high_dynamic_range_v4",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21231,7 +21231,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_hta",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21256,7 +21256,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_lensstaindetection",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21281,7 +21281,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_low_light_hdr",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21306,7 +21306,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_low_light_hdr_for_neon",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21331,7 +21331,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_pic_best",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21356,7 +21356,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_portraitSN_hvx_stub",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21380,7 +21380,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_portrait_super_night_raw",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21408,7 +21408,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_preview_antibanding",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21433,7 +21433,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_qnnhtp",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21459,7 +21459,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_scbokeh_image",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21484,7 +21484,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_scbokeh_video",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21509,7 +21509,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_smart_denoise",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21534,7 +21534,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_smart_denoise_v4",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21559,7 +21559,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_super_night_raw",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21587,7 +21587,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_super_night_se_raw",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21615,7 +21615,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_videoautozoom",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21639,7 +21639,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbsproxy",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21666,7 +21666,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcalculator",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21691,7 +21691,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcalculator_domains",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21716,7 +21716,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcalculator_htp",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21741,7 +21741,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcdm_metrics_protos",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21766,7 +21766,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcdm_protos",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21791,7 +21791,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcom.oplus.calidatacontainer",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21818,7 +21818,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcommcenterfw",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21846,7 +21846,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcommcenterutils",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21873,7 +21873,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcvface_api",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21897,7 +21897,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdmtp-protos-lite",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21922,7 +21922,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdmtp",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21957,7 +21957,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdmtpclient",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -21993,7 +21993,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libeffect_custom",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22019,7 +22019,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libexif-jpeg-aps",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22043,7 +22043,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgf_hal_G2",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22077,7 +22077,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgf_hal_G3",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22111,7 +22111,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgf_hal_G5",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22144,7 +22144,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgf_hal_G6",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22177,7 +22177,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgf_hal_G7",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22208,7 +22208,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhci_face_camera_api",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22232,7 +22232,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhta",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22257,7 +22257,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhwconfigurationutil",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22282,7 +22282,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhyperlapse",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22306,7 +22306,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimgClarityEvaluate",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22331,7 +22331,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libml_util",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22356,7 +22356,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmotionblur",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22382,7 +22382,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmpbase",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22403,7 +22403,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liboemcrypto",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22436,7 +22436,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libop-ai-beauty-body-detection",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22462,7 +22462,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libop-ai-beauty-faceretouch-cn",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22488,7 +22488,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liboplus_service",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22525,7 +22525,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libormshalclient",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22557,7 +22557,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libosenseaidlhalclient",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22587,7 +22587,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libosensehalclient",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22619,7 +22619,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpngwrapper",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22645,7 +22645,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libpwirisfeature_odm",
     stem: "libpwirisfeature",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22677,7 +22677,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libpwirishalwrapper_odm",
     stem: "libpwirishalwrapper",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22713,7 +22713,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libshdr_stub",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22738,7 +22738,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsnpe_dsp_domains_v2",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22763,7 +22763,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsnpe_dsp_domains_v3",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22788,7 +22788,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsnpe_htp",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22813,7 +22813,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsnpe_loader",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22840,7 +22840,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsnpeml",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22866,7 +22866,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libstblur_api",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22893,7 +22893,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libstblur_capture_api",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22919,7 +22919,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libstface_fd_api",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22943,7 +22943,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libstfaceunlockocl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22968,7 +22968,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libstfd_mobile_api",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -22992,7 +22992,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsymphony-cpu",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23017,7 +23017,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsymphonypower",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23041,7 +23041,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvl53l1_daemon",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23065,7 +23065,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwatermark_photo",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23089,7 +23089,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwvhidl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23126,7 +23126,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwvdrmengine",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23158,7 +23158,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "sensors.hal.tof",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23185,7 +23185,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.appradio@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23214,7 +23214,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.biometrics.fingerprint@2.1_odm",
     stem: "vendor.oplus.hardware.biometrics.fingerprint@2.1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23245,7 +23245,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.cameraextension-V1-service-impl",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23288,7 +23288,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.cammidasservice-V1-ndk_platform_odm",
     stem: "vendor.oplus.hardware.cammidasservice-V1-ndk_platform",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23313,7 +23313,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.commondcs@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23341,7 +23341,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.communicationcenter_compat@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23369,7 +23369,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.ims@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23397,7 +23397,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.oplusSensor@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23426,7 +23426,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.osense.client-V1-ndk_platform_odm",
     stem: "vendor.oplus.hardware.osense.client-V1-ndk_platform",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23451,7 +23451,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.osense.client@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23479,7 +23479,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.performance-V1-ndk_platform",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23504,7 +23504,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.performance@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23532,7 +23532,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.radio@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23560,7 +23560,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.pixelworks.hardware.display@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23588,7 +23588,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.pixelworks.hardware.display@1.1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23617,7 +23617,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.pixelworks.hardware.feature@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23645,7 +23645,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.esepowermanager@1.0",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23673,7 +23673,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.esepowermanager@1.1",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -23703,7 +23703,7 @@ cc_prebuilt_library_shared {
 prebuilt_rfsa {
     name: "libhta_dsp_skel",
     filename: "libhta_dsp_skel.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/odm/lib/rfsa/adsp/hta_lib/libhta_dsp_skel.so",
     relative_install_path: "adsp/hta_lib",
     device_specific: true,
@@ -23712,7 +23712,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libc++.so",
     filename: "libc++.so.1",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/odm/lib/rfsa/adsp/libc++.so.1",
     relative_install_path: "adsp",
     device_specific: true,
@@ -23721,7 +23721,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libc++abi.so",
     filename: "libc++abi.so.1",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/odm/lib/rfsa/adsp/libc++abi.so.1",
     relative_install_path: "adsp",
     device_specific: true,
@@ -23730,7 +23730,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libinterstellar_skel",
     filename: "libinterstellar_skel.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/odm/lib/rfsa/adsp/libinterstellar_skel.so",
     relative_install_path: "adsp",
     device_specific: true,
@@ -23739,7 +23739,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libktvdrc",
     filename: "libktvdrc.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/odm/lib/rfsa/adsp/libktvdrc.so",
     relative_install_path: "adsp",
     device_specific: true,
@@ -23748,7 +23748,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libktveffect",
     filename: "libktveffect.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/odm/lib/rfsa/adsp/libktveffect.so",
     relative_install_path: "adsp",
     device_specific: true,
@@ -23757,7 +23757,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libktveq",
     filename: "libktveq.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/odm/lib/rfsa/adsp/libktveq.so",
     relative_install_path: "adsp",
     device_specific: true,
@@ -23766,7 +23766,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libktvns",
     filename: "libktvns.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/odm/lib/rfsa/adsp/libktvns.so",
     relative_install_path: "adsp",
     device_specific: true,
@@ -23775,7 +23775,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libktvpitchshift",
     filename: "libktvpitchshift.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/odm/lib/rfsa/adsp/libktvpitchshift.so",
     relative_install_path: "adsp",
     device_specific: true,
@@ -23784,7 +23784,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libktvreverb",
     filename: "libktvreverb.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/odm/lib/rfsa/adsp/libktvreverb.so",
     relative_install_path: "adsp",
     device_specific: true,
@@ -23793,7 +23793,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libktvvolume",
     filename: "libktvvolume.so",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/odm/lib/rfsa/adsp/libktvvolume.so",
     relative_install_path: "adsp",
     device_specific: true,
@@ -23801,7 +23801,7 @@ prebuilt_rfsa {
 
 android_app_import {
     name: "CACertService",
-    owner: "oneplus",
+    owner: "realme",
     apk: "proprietary/vendor/app/CACertService/CACertService.apk",
     certificate: "platform",
     dex_preopt: {
@@ -23812,7 +23812,7 @@ android_app_import {
 
 android_app_import {
     name: "CneApp",
-    owner: "oneplus",
+    owner: "realme",
     apk: "proprietary/vendor/app/CneApp/CneApp.apk",
     required: [
         "CneApp.libvndfwk_detect_jni.qti_symlink",
@@ -23826,7 +23826,7 @@ android_app_import {
 
 android_app_import {
     name: "IWlanService",
-    owner: "oneplus",
+    owner: "realme",
     apk: "proprietary/vendor/app/IWlanService/IWlanService.apk",
     certificate: "platform",
     dex_preopt: {
@@ -23837,7 +23837,7 @@ android_app_import {
 
 android_app_import {
     name: "TimeService",
-    owner: "oneplus",
+    owner: "realme",
     apk: "proprietary/vendor/app/TimeService/TimeService.apk",
     certificate: "platform",
     dex_preopt: {
@@ -23848,7 +23848,7 @@ android_app_import {
 
 android_app_import {
     name: "PowerOffAlarm",
-    owner: "oneplus",
+    owner: "realme",
     apk: "proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk",
     certificate: "platform",
     dex_preopt: {
@@ -23859,7 +23859,7 @@ android_app_import {
 
 android_app_import {
     name: "HotwordEnrollmentOKGoogleHEXAGON",
-    owner: "oneplus",
+    owner: "realme",
     apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk",
     certificate: "platform",
     dex_preopt: {
@@ -23871,7 +23871,7 @@ android_app_import {
 
 android_app_import {
     name: "ImsRcsService",
-    owner: "oneplus",
+    owner: "realme",
     apk: "proprietary/system_ext/app/ImsRcsService/ImsRcsService.apk",
     certificate: "platform",
     dex_preopt: {
@@ -23882,7 +23882,7 @@ android_app_import {
 
 android_app_import {
     name: "QtiTelephonyService",
-    owner: "oneplus",
+    owner: "realme",
     apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
     certificate: "platform",
     dex_preopt: {
@@ -23893,7 +23893,7 @@ android_app_import {
 
 android_app_import {
     name: "WfdService",
-    owner: "oneplus",
+    owner: "realme",
     apk: "proprietary/system_ext/priv-app/WfdService/WfdService.apk",
     certificate: "platform",
     dex_preopt: {
@@ -23905,7 +23905,7 @@ android_app_import {
 
 android_app_import {
     name: "dpmserviceapp",
-    owner: "oneplus",
+    owner: "realme",
     apk: "proprietary/system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk",
     certificate: "platform",
     dex_preopt: {
@@ -23917,7 +23917,7 @@ android_app_import {
 
 android_app_import {
     name: "ims",
-    owner: "oneplus",
+    owner: "realme",
     apk: "proprietary/system_ext/priv-app/ims/ims.apk",
     certificate: "platform",
     dex_preopt: {
@@ -23929,7 +23929,7 @@ android_app_import {
 
 android_app_import {
     name: "qcrilmsgtunnel",
-    owner: "oneplus",
+    owner: "realme",
     apk: "proprietary/system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
     certificate: "platform",
     dex_preopt: {
@@ -23941,7 +23941,7 @@ android_app_import {
 
 dex_import {
     name: "WfdCommon",
-    owner: "oneplus",
+    owner: "realme",
     jars: [
         "proprietary/system/framework/WfdCommon.jar",
     ],
@@ -23949,7 +23949,7 @@ dex_import {
 
 dex_import {
     name: "com.android.hotwordenrollment.common.util",
-    owner: "oneplus",
+    owner: "realme",
     jars: [
         "proprietary/product/framework/com.android.hotwordenrollment.common.util.jar",
     ],
@@ -23958,7 +23958,7 @@ dex_import {
 
 dex_import {
     name: "com.qti.dpmframework",
-    owner: "oneplus",
+    owner: "realme",
     jars: [
         "proprietary/system_ext/framework/com.qti.dpmframework.jar",
     ],
@@ -23967,7 +23967,7 @@ dex_import {
 
 dex_import {
     name: "dpmapi",
-    owner: "oneplus",
+    owner: "realme",
     jars: [
         "proprietary/system_ext/framework/dpmapi.jar",
     ],
@@ -23976,7 +23976,7 @@ dex_import {
 
 dex_import {
     name: "oplus-ims-ext",
-    owner: "oneplus",
+    owner: "realme",
     jars: [
         "proprietary/system_ext/framework/oplus-ims-ext.jar",
     ],
@@ -23985,7 +23985,7 @@ dex_import {
 
 dex_import {
     name: "qcrilhook",
-    owner: "oneplus",
+    owner: "realme",
     jars: [
         "proprietary/system_ext/framework/qcrilhook.jar",
     ],
@@ -23994,7 +23994,7 @@ dex_import {
 
 dex_import {
     name: "vendor.qti.hardware.alarm-V1.0-java",
-    owner: "oneplus",
+    owner: "realme",
     jars: [
         "proprietary/system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar",
     ],
@@ -24003,7 +24003,7 @@ dex_import {
 
 dex_import {
     name: "vendor.qti.ims.factory-V2.0-java",
-    owner: "oneplus",
+    owner: "realme",
     jars: [
         "proprietary/system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar",
     ],
@@ -24012,7 +24012,7 @@ dex_import {
 
 prebuilt_etc_xml {
     name: "android.hardware.gnss@2.1-service-qti.xml",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -24021,7 +24021,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "android.hardware.neuralnetworks@1.3-service-qti-hta.xml",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -24030,7 +24030,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "android.hardware.neuralnetworks@1.3-service-qti.xml",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -24039,7 +24039,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "c2_manifest_vendor.xml",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/etc/vintf/manifest/c2_manifest_vendor.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -24048,7 +24048,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "manifest_oplus_osiesr.xml",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/etc/vintf/manifest/manifest_oplus_osiesr.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -24057,7 +24057,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "vendor.qti.gnss@4.0-service.xml",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -24066,7 +24066,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "manifest_android.hardware.drm@1.3-service.widevine.xml",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/odm/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -24075,7 +24075,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "manifest_oplusSensor.xml",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/odm/etc/vintf/manifest/manifest_oplusSensor.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -24084,7 +24084,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "manifest_oplus_fingerprint.xml",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -24093,7 +24093,7 @@ prebuilt_etc_xml {
 
 cc_prebuilt_binary {
     name: "adpl",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24128,7 +24128,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "adsprpcd",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24153,7 +24153,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "cdsprpcd",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24178,7 +24178,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "cnd",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24224,7 +24224,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "cnss-daemon",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24257,7 +24257,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "dpmQmiMgr",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24293,7 +24293,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "feature_enabler_client",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24326,7 +24326,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.bluetooth@1.0-service-qti",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24363,7 +24363,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.gatekeeper@1.0-service-qti",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24393,7 +24393,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.gnss@2.1-service-qti",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24429,7 +24429,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.neuralnetworks@1.3-service-qti",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24472,7 +24472,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "qcrild",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24502,7 +24502,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.display.color@1.0-service",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24543,7 +24543,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.qti.hardware.alarm@1.0-service",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24575,7 +24575,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.qti.hardware.capabilityconfigstore@1.0-service",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24608,7 +24608,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.qti.hardware.display.composer-service",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24672,7 +24672,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.qti.hardware.perf@2.2-service",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24710,7 +24710,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.qti.hardware.qseecom@1.0-service",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24740,7 +24740,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.qti.hardware.qteeconnector@1.0-service",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24769,7 +24769,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.qti.hardware.sensorscalibrate@1.0-service",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24800,7 +24800,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.qti.hardware.soter@1.0-service",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24829,7 +24829,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.qti.media.c2@1.0-service",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm: {
             srcs: [
@@ -24869,7 +24869,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "ims_rtp_daemon",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24909,7 +24909,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "imsdatadaemon",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24945,7 +24945,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "imsqmidaemon",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -24976,7 +24976,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "imsrcsd",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25005,7 +25005,7 @@ cc_prebuilt_binary {
 
 sh_binary {
     name: "init.mdm",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/bin/init.mdm.sh",
     filename: "init.mdm.sh",
     soc_specific: true,
@@ -25013,7 +25013,7 @@ sh_binary {
 
 sh_binary {
     name: "init.qti.chg_policy",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/vendor/bin/init.qti.chg_policy.sh",
     filename: "init.qti.chg_policy.sh",
     soc_specific: true,
@@ -25021,7 +25021,7 @@ sh_binary {
 
 cc_prebuilt_binary {
     name: "irsc_util",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25046,7 +25046,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "ks",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25073,7 +25073,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "loc_launcher",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25102,7 +25102,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "lowi-server",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25134,7 +25134,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "mdm_helper",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25166,7 +25166,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "mlid",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25193,7 +25193,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "msm_irqbalance",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25220,7 +25220,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "mutualex",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25259,7 +25259,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "netmgrd",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25306,7 +25306,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "pd-mapper",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25338,7 +25338,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "pm-proxy",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25366,7 +25366,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "pm-service",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25400,7 +25400,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "port-bridge",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25427,7 +25427,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "power_off_alarm",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25453,7 +25453,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "ppd",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25481,7 +25481,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "qmipriod",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25509,7 +25509,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "qrtr-ns",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25534,7 +25534,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "qseecomd",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25563,7 +25563,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "qti",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25598,7 +25598,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "rmt_storage",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25629,7 +25629,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "sensors.qti",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25660,7 +25660,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "shsusrd",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25695,7 +25695,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "slim_daemon",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25734,7 +25734,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "sscrpcd",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25759,7 +25759,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "ssgqmigd",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm: {
             srcs: [
@@ -25783,7 +25783,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "ssgtzd",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25821,7 +25821,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "tftp_server",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25848,7 +25848,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "thermal-engine",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25876,7 +25876,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "time_daemon",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25904,7 +25904,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vppservice",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -25941,7 +25941,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "wfdhdcphalservice",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm: {
             srcs: [
@@ -25984,7 +25984,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "wfdvndservice",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm: {
             srcs: [
@@ -26013,7 +26013,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "wifidisplayhalservice",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm: {
             srcs: [
@@ -26044,7 +26044,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "xtra-daemon",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -26082,7 +26082,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "xtwifi-client",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -26126,7 +26126,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "xtwifi-inet-agent",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -26155,7 +26155,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "dpmd",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -26186,7 +26186,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "tcmd",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -26221,7 +26221,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "wfdservice",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -26255,7 +26255,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.drm@1.3-service.widevine",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -26290,7 +26290,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.oplus.hardware.biometrics.fingerprint@2.1-service",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -26335,7 +26335,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.oplus.hardware.oplusSensor@1.0-service",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -26370,7 +26370,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.qti.esepowermanager@1.1-service",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -26404,7 +26404,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.qti.secure_element@1.2-service",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -26441,7 +26441,7 @@ cc_prebuilt_binary {
 
 sh_binary {
     name: "init.oplus.fingerprints",
-    owner: "oneplus",
+    owner: "realme",
     src: "proprietary/odm/bin/init.oplus.fingerprints.sh",
     filename: "init.oplus.fingerprints.sh",
     device_specific: true,
@@ -26449,7 +26449,7 @@ sh_binary {
 
 cc_prebuilt_binary {
     name: "oplus_sensor_fb",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
@@ -26479,7 +26479,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vl53l1_daemon_main",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
